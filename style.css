@@ -1,0 +1,30 @@
+body {
+  position: absolute;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hidden {
+  display: none;
+  visibility: hidden;
+}
+
+h1 {
+  color: #1a1a1a;
+  font-size: 3rem;
+}
+
+.winner {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  height: 75vh;
+  width: 75vw;
+  background-color: #f1f1f1cc;
+  color: #1a1a1a;
+  box-shadow: 0 0 15px #1a1a1a;
+}
